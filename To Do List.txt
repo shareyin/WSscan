@@ -1,0 +1,14 @@
+To Do
+-----
+-To retrieve data from all database(s). -- Done
+-To implement my error checker on Hexjector. -- Done
+-To make a waf bypassing method.
+-To Fix the buggy data dump in html. -- Temporary Removed until I want it back.
+-To implement my log checker.
+-To use sql query( database() , schema() ) according to mysql version.
+-To implement Blind MySQL Injection Module.
+-Fix my SQL Injection method as it cannot retrieve all tables if
+ the database has a lot of tables  -- Fixed.
+-Problem on Column inside Table Retrieval if there is too many column is still 
+ not fixed (the limit version not group concat). -- Fixed.
+-To add quote or double quote in errorchk

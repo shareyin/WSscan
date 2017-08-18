@@ -1,0 +1,18 @@
+﻿Hall Of Fame
+------------
+
+Version 1.0.7.4
+ak47suk1 - To make option to disable information_schema output.
+
+Version 1.0.7.3SE
+Johnburn - To implement Cookie Request
+
+Version 1.0.7.2
+Ahlspiess - Hexafind error.
+
+Version 1.0.7
+Assassino - Hexdumper error.
+
+Version 1.0.6
+Johnburn - Undefined Index fix
+Ahlspiess - An error in Dumpv5 Naming

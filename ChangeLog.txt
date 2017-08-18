@@ -1,0 +1,178 @@
+Version 1.0.7.4 (3/7/2010)
+
+Hexjector v1.0.7.4
+-WAF_Detector v1.0.2
+-HexacURL v1.0.1
+-Hexafind v1.0.1
+-Error_Check v1.0.2
+-Hexdumper v1.0.1
+-HexaCurD v1.0.0
+-Hexdumpfile v1.0.0
+-Hexoutfile v1.0.0
+-Hexloader v1.0.0
+-HexDorker v1.0.1
+
+-MsAccess SQL Injection is not added yet, it will be added in the next version. 
+-MySQL Injection v4 is back !
+-WebPanel is Added.
+-Every additional tool is separated to enable users to know the progress of the
+ additional tools.
+-Index.php is made to convenient users in using tools of Hexjector.
+-Refined the code to reduce wastage of HTTP Requests.
+-Every file that specialized in Connection will have a prefix "Con_".
+-Waf_Detector.php is removed.
+-Waf_Detector is integrated into each Connection.
+-Every File with Waf_Detector have a postfix "_WD" to ease users & developers
+ to identify it.
+-Wafdetect on MySQL Injection v4 is disabled by default as it may hinder the process.
+ (Enabled back by integrating connection with wafdetect)
+-wafdetect is removed as wafdetect is integrated into each Connection.
+-Coalesce() is removed.
+-Problem on Webservers not using apache is fixed. (Apache_request_headers() )
+-Error_reporting is enabled. (Previously disabled due to my fault)
+-Background of Hexjector is changed.
+-Hexjector Wordpress Blog opened (http://sourceforge.net/hexjector/wordpress)
+-Personal Wordpress Blog opened.
+-Wallpaper Gallery opened.
+-Users can see Wallpapers submitted at the Gallery.
+-Filename error fixed as Filename is case-sensitive in Unix.
+-Auto-Update Check is done.
+-Union All select in Information.php is changed to Union distinct select.
+-HexacURL and HexDorker is separated from main 
+
+A New Tool had been made.
+-HexaCurD.php is made.
+-HexaCurD is an additional tool to aid users to retrieve the Current Directory
+ of a particular table in MsAccess SQL Injection.
+
+A New Tool had been made.
+-HexDorker.php is made. 
+-HexDorker is a Tool to search for sites by using Google Dork and check the sites
+ for SQL Injection Vulnerabilities.
+
+
+Version 1.0.7.3SE (5/6/2010)
+-Special Edition
+-Disclaimer added.
+-Hexjector Official Documentation for Win32 released.
+-MySQL Injection v5 Full Database Enumeration (There was a few bugs in past releases
+ that is fixed in this version and Data Retrieved is checked one by one.).
+-Persistent XSS is patched by filtering the $url2. 
+ (For the Patch, you can find it at Exploitdb or email me if it has still not 
+  posted at exploitdb)  
+-Html Dump temporary removed due to 0day Vulnerablity found by me.
+-Video regarding 0day Exploit is made and uploaded at youtube.
+-Non-Persistent XSS is patched. 
+-Another Non-persistent XSS is patched (Hexdumper).
+-Yet Another Non-persistent XSS is patched (Hexafind).
+-Every input is filtered to prevent XSS.
+-cURL is modified to reduce HTTP Request Time Usage.
+-Type of Injection(Numeric,String Based) added.
+-Changes in Query according to Numeric or String Based Detection is added.
+-Total Queries Generated for Information_schema,phpmyadmin and mysql is 359.
+-Error in Hexdumper fixed. (wafdetect($dumpstr))
+-Filenames had been modifed to make it more professional.
+-Error in Column Count is patched.
+-Coalesce() is added.
+-Error on conditional matching is fixed. ($str_col=true)
+-Now I will focus on MySQL Injection v4.
+-MySQL Injection v4 is temporary disabled as I never refined the code since made
+ and it is kind of buggy. 
+-You may notice some performance slow down.(Reason is located at the below).
+-Problem on if there is too many columns ,only partial of the data will be  
+ extracted is patched.
+-Interface changed to aid users in finding the data wanted(Data are in bold).
+-SiXSS Added.
+-Custom Header is added.
+-Server Information is added.
+-Connect4.php editted to make it more error-proof.
+-Processes of Hexafind,Hexoutfile and Hexdumpfile has been changed to 
+ make it more real-time.
+-Hexoutfile(Into OutFile) added.
+-New File Created : hexoutfile.php
+-Hexdumpfile(Into DumpFile) added .
+-New File Created : hexdumpfile.php
+-Load_File added.
+-New File Created : hexloader.php
+-Custom Back Parameter added.
+-Update Check Module is added.
+-Version Comment added.
+-Operating System Detection added.
+-Operating System Architecture Detection added.
+-Temporary Directory Retrieval Added.
+
+-New File added : HexacURL.php
+-HexacURL is a cURL based webbrowser with Header Enumeration to ease Professional Pentesters 
+ to solve the sql query problems.
+-Non-persistent XSS is expected if the site has XSS.It is more or less like a browser
+ so this is normal.
+-Testers can use it to find the unique parameter input it in Custom Parameter 
+ of Hexjector so Hexjector can execute.
+-Custom Whitespace added.
+-To Hexadecimal added.
+-Url_encode added.
+-Url_decode added.
+
+
+Version 1.0.7.2 (25/5/2010)
+-Dump to html is removed then added again as I have a new working idea. 
+-Custom Parameter is added.
+-Credits Board changed name to Hall Of Fame.
+
+Version 1.0.7.1 
+-Hexafind error is fixed.
+
+Version 1.0.7 (15/5/2010)
+-Buggy data dump is fixed. (Finally :P )
+-Credits is added.
+-Hexjector running on Windows OS will need to wait until the script finishes then it will echo the data(s). (It will be fixed soon after)
+
+Version 1.0.6(9/5/2010) 2.0.7 a.m
+-Full Schema Enumeration is done. (Hardcore Coding :P )
+-Table and Column enumeration is editted for Full Schema Enumeration.
+-2 New Folders called : Dumpv5 and Dumpv4 are made to put the logs.
+-Still working on the buggy data dump to html mode.
+
+Version 1.0.6b(8/5/2010)
+-Working on the Full Schema Enumeration Mode.
+
+Version 1.0.5 (1/5/2010)
+-1st Release to public.
+-Made OpenSource for all Pentesters to pentest their scripts. 
+-GNU License v3 was added.
+
+
+Version 1.0.4 (25/4/2010)
+-Dumper now has name : Hexdumper
+-Hexdumper is revised and improved.
+-Wafdetector Module is added.
+
+
+Version 1.0.3 
+-Extraction Code is refined.
+-Experimental Mysql Version retrieval is added.
+-Mysql User retrieval is added.
+-Data(s) is divided into a few files for ease configuration.
+
+
+Version 1.0.2 (25/2/2010)
+-Form was added to make it more user friendly
+-MySQL Injection Version 4 Module was added.
+-Data Dump in html file is added.
+-Flush() and ob_flush() is added to make PHP in Win32 to display data instantly.
+-Error Data Dump in html file is fixed.
+-All Data(s) are grouped together for ease of configuration.
+
+
+Version 1.0.1 (23/2/2010)
+-Still not released to public
+-Curl is used instead of file_get_contents as it is much faster.
+-Improved the code to retrieve every table name and column name from current database.
+
+
+Version 1.0.0 (17/2/2010)
+-Initial Version.
+-Not Released to public , intended for private use.
+
+
+

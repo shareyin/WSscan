@@ -1,0 +1,10 @@
+Version 1.0.1 (23/6/2010)
+-cURL is optimised for faster connection.
+-apache_request_headers() is removed for portability.
+
+Version 1.0.0 
+-Initial Release.
+-Released as part of Hexjector.
+-To_Hexadecimal.php added.
+-Url_Encode.php
+-Url_Decode.php

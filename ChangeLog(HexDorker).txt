@@ -1,0 +1,7 @@
+Version 1.0.1 (3/7/2010)
+-Integrated in Hexjector v1.0.4.
+-Works with Error_Check to scan for SQL Injection Vulnerabilities.
+
+Version 1.0.0 
+-Initial Version.
+-Still in Development.
